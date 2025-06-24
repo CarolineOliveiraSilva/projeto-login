@@ -6,4 +6,48 @@
 #2C5F73
 #64818C
 #86A6A6
-#F2EDDC /*
+#F2EDDC */;
+
+*{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-shadow: border-box;
+}
+
+body,html{
+    background-color:#074259 ;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+
+}
+section#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px  rgba(0, 0, 0, 0.555);
+}
+section#login > div#foto {
+    display: block;
+    background: blueviolet url(../imagens/pexels.jpg) no-repeat;
+    background-size: cover;
+    position:left ;
+    height: 200px;
+}
+section#login > div#formulario {
+    display: block;
+    padding: 10px;
+}
