@@ -4,7 +4,7 @@
 
 #074259
 #2C5F73
-#64818C
+C
 #86A6A6
 #F2EDDC */;
 
@@ -28,17 +28,20 @@ main {
 
 }
 section#login{
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden;
 
     background-color: white;
-    width: 250px;
+    width: 200px;
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px  rgba(0, 0, 0, 0.555);
+
+    transition: width .3s, height .3s;
+    transition-timing-function:ease;
 }
 section#login > div#foto {
     display: block;
@@ -50,4 +53,5 @@ section#login > div#foto {
 section#login > div#formulario {
     display: block;
     padding: 10px;
+    text-align: absolute;
 }
