@@ -9,12 +9,14 @@
         width: 80vw;
         height: 350px;
         display: flex;
-        flex-direction: row;
+        flex-wrap: nowrap;
+        
     }
 
     section#login > div#foto {
         width: 30%;
         height: 100%;
+       
     }
 
     section#login > div#formulario {
